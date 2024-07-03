@@ -1,4 +1,3 @@
-@use "./abstracts/_abstracts";
-@use "./components/_components";
-@use "./layouts/_layouts";
-@use "./pages/_pages";
+@use "./components/_components" as *;
+@use "./layouts/_layouts" as *;
+@use "./pages/_pages" as *;
