@@ -1,6 +1,13 @@
 .app {
-    
-    .conatiner {
-  
+  display: flex;
+  justify-content: center;
+  .container {
+    width: 1024px;
+
+    .blog-link {
+      text-decoration: none;
+      color: inherit;
     }
+
   }
+}
