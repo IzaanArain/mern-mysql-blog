@@ -1,8 +1,11 @@
-
 const Navigation = () => {
   return (
-    <div>Navigation</div>
-  )
-}
+    <>
+      <nav>
+        <div>Navigation</div>
+      </nav>
+    </>
+  );
+};
 
-export default Navigation
+export default Navigation;
