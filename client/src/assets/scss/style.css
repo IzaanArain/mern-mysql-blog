@@ -121,6 +121,7 @@ footer img {
   display: flex;
   flex-direction: column;
   gap: 150px;
+  padding: 0px 20px;
 }
 .home .posts .post {
   display: flex;
