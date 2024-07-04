@@ -175,4 +175,9 @@ footer img {
   border: 1px solid white;
   background-color: #b9e7e7;
   color: black;
+}
+
+.post-view {
+  display: flex;
+  gap: 50px;
 }/*# sourceMappingURL=style.css.map */
