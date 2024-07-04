@@ -1,15 +1,20 @@
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
-import {Outlet} from "react-router-dom";
+import Header from "./header/Header";
+import Footer from "./footer/Footer";
+import ContentWrapper from "./ContentWrapper";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
     <>
-    <Header/>
-    <Outlet/>
-    <Footer/>
+      <ContentWrapper>
+        <Header />
+        <main>
+          <Outlet />
+        </main>
+        <Footer />
+      </ContentWrapper>
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

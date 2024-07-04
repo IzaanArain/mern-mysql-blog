@@ -1,10 +1,11 @@
 import React from "react";
+import BlogLogo from "../../assets/img/blog_logo.png";
 
 const Footer = () => {
   return (
     <>
       <footer>
-        <span>Izaan's Blog</span>
+        <img src={BlogLogo} alt="" />
         <span>Made with <b>React.js</b>.</span>
       </footer>
     </>
