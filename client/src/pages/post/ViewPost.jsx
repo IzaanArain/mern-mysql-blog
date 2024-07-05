@@ -5,7 +5,7 @@ import Menu from "../../components/menu/Menu";
 const ViewPost = () => {
   return (
     <>
-      <section className="post-view">
+      <section className="view-post">
         <article className="content">
           <img
             src="https://images.pexels.com/photos/7008010/pexels-photo-7008010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
