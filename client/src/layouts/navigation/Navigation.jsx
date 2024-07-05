@@ -24,11 +24,9 @@ const Navigation = () => {
         </Link>
         <span>John</span>
         <span>Logout</span>
-        <span className="add-link">
-          <Link className="blog-link" to={"/write"}>
-            Write
-          </Link>
-        </span>
+        <Link className="blog-link" to={"/write"}>
+          <span className="add-link">Write</span>
+        </Link>
       </nav>
     </>
   );
