@@ -3,8 +3,8 @@ import Layout from "../layouts/Layout";
 import Home from "../pages/home/Home";
 import Register from "../pages/auth/Register";
 import Login from "../pages/auth/Login";
-import PostView from "../pages/post/PostView";
-import CreatePost from "../pages/post/CreatePost";
+import ViewPost from "../pages/post/ViewPost";
+import WritePost from "../pages/post/WritePost";
 
 const router = createBrowserRouter([
   {
@@ -25,11 +25,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/post/:id",
-        element: <PostView />,
+        element: <ViewPost />,
       },
       {
-        path: "/add",
-        element: <CreatePost />,
+        path: "/write",
+        element: <WritePost />,
       },
     ],
   },

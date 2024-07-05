@@ -25,7 +25,7 @@ const Navigation = () => {
         <span>John</span>
         <span>Logout</span>
         <span className="add-link">
-          <Link className="blog-link" to={"/add"}>
+          <Link className="blog-link" to={"/write"}>
             Write
           </Link>
         </span>
