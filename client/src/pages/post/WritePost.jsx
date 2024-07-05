@@ -18,8 +18,8 @@ const WritePost = () => {
             />
           </div>
         </section>
-        <aside className="menu">
-          <section className="item">
+        <aside className="options">
+          <section className="option-item">
             <h1>Publish</h1>
             <span>
               <b>Status: </b> Draft
@@ -41,7 +41,7 @@ const WritePost = () => {
               <button>Update</button>
             </div>
           </section>
-          <section className="item">
+          <section className="option-item">
             <h1>Category</h1>
             <div className="cat">
               <input type="radio" name="cat" value={"art"} id="art" />

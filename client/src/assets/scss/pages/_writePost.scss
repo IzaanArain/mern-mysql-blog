@@ -28,13 +28,13 @@
     }
   }
 
-  .menu {
+  .options {
     flex: 2;
     display: flex;
     flex-direction: column;
     gap: 20px;
 
-    .item {
+    .option-item {
       border: 1px solid lightgray;
       padding: 10px;
       flex: 1;
