@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import deleteIcon from "../../assets/img/delete.png";
 import editIcon from "../../assets/img/edit.png";
 import Menu from "../../components/menu/Menu";
+
 const ViewPost = () => {
   return (
     <>
